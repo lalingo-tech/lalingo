@@ -1,0 +1,23 @@
+body { padding: 0; margin: 0 }
+#unity-container { position: absolute }
+#unity-container.unity-desktop { left: 50%; top: 50%; transform: translate(-50%, -50%) }
+#unity-container.unity-mobile { width: 100%; height: 100% }
+#unity-canvas { background: url('bg.png') no-repeat center }
+.unity-mobile #unity-canvas { width: 100%; height: 100% }
+#unity-loading-bar { position: absolute; left: 50%; top: 26%; transform: translate(-50%, -50%); display: none }
+#unity-logo { width: 1024px; height: 770px; background: url('voca_tooki_splash_screen.png') no-repeat center top }
+#unity-progress-bar-empty { width: 372px; height: 39px; margin-top: 10px; margin-left: auto; margin-right: auto; position:absolute; left:3.75%; right:0;background: url('lodaing_bar_frame.png') no-repeat center }
+#unity-progress-bar-full {
+  width: 0%; /* current progress */
+  height: 100%;
+  margin-top: 3.5px;
+  margin-left: 4px;
+  background: url('loading_bar_fill.png') no-repeat;
+
+}
+#unity-footer { position: relative }
+.unity-mobile #unity-footer { display: none }
+#unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
+#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
+#unity-fullscreen-button { float: left; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
+#unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
