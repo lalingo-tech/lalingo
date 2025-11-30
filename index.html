@@ -15,8 +15,6 @@
     <!-- MICROPHONE PRO START -->
     <script src='./microphone.js'></script>
     <!-- MICROPHONE PRO END -->
-<script src="https://unpkg.com/mic-recorder-to-mp3@2.2.1/dist/index.min.js"></script>
-
 </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -35,15 +33,15 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/web_lalingo_5.0.0_0.loader.js";
+      var loaderUrl = buildUrl + "/web_lalingo_5.0.0_1.loader.js";
       var config = {
-        dataUrl: buildUrl + "/web_lalingo_5.0.0_0.data.unityweb",
-        frameworkUrl: buildUrl + "/web_lalingo_5.0.0_0.framework.js.unityweb",
-        codeUrl: buildUrl + "/web_lalingo_5.0.0_0.wasm.unityweb",
+        dataUrl: buildUrl + "/web_lalingo_5.0.0_1.data.unityweb",
+        frameworkUrl: buildUrl + "/web_lalingo_5.0.0_1.framework.js.unityweb",
+        codeUrl: buildUrl + "/web_lalingo_5.0.0_1.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Kideo Tech",
         productName: "Lalingo",
-        productVersion: "1.0.0",
+        productVersion: "5.0.0",
       };
 
       var container = document.querySelector("#unity-container");
